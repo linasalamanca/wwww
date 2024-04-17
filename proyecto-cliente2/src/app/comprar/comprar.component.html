@@ -1,0 +1,26 @@
+<div class="timer">
+    Tiempo de juego: {{ infoService.getInfoTiempo()}}
+</div>   
+<div>
+    <h1>Escoge un producto para comprar</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let producto of productos">
+                <td>{{ producto.nombreProducto }}</td>
+                <td>{{ producto.cantidad }}</td>
+                <td>{{ producto.precio }}</td>
+                <td>
+                    <button (click)="comprar(producto.id)">Comprar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

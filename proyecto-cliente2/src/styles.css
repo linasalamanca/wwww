@@ -1,0 +1,83 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Jersey+20&family=Teko:wght@300..700&display=swap" rel="stylesheet');
+
+body {
+    background-image: url('https://png.pngtree.com/background/20210716/original/pngtree-mysterious-starry-sky-background-picture-image_1337171.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Jersey 20';
+    font-size: 100px;
+    text-align: center;
+    color: #FFCB7A;
+}
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    background-color: #FFCB7A;
+}
+
+tbody{
+    background-color: #FFD7FB;
+}
+
+th{
+    font-family: 'Teko';
+    font-size: 25px;
+    text-align: center;
+}
+
+td{
+    font-family: 'Assistant';
+    font-size: 15px;
+    text-align: center;
+}
+
+.timer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    font-size: 16px;
+    z-index: 1000;
+  }
+
+  .tiempoFinal{
+    display: flex;
+    position: fixed;
+    min-width: 150px;
+    max-width: 250px;
+    top: 65%;
+    right:27%;
+    font-family: 'Teko';
+    font-size: 35px;
+    text-align: center;
+    color: #FFCB7A;
+    background-color: white;
+    padding: 10px;
+    margin-left: 40px;
+  }
+
+  .puntaje{
+    display: flex;
+    position: fixed;
+    min-width: 150px;
+    max-width: 250px;
+    top: 65%;
+    left: 27%;
+    font-family: 'Teko';
+    font-size: 35px;
+    text-align: center;
+    color: #FFCB7A;
+    background-color: white;
+    padding: 10px;
+    margin-right: 40px;
+  }
